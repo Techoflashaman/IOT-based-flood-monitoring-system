@@ -11,7 +11,7 @@ This project firmware is based on Arduino.
 
 ## Components required for making this project
 
-Hardware requirement
+### Hardware requirement
 
 •	Node MCU ESP8266 Development Board
 
@@ -27,7 +27,7 @@ Hardware requirement
 
 •	Power Supply
 
-Software requirement
+### Software requirement
 
 •	Arduino IDE
 
@@ -38,12 +38,6 @@ Software requirement
 After the successful interface of the hardware parts according to the circuit diagram above. Now it’s time to set up the IoT platform, where data can be stored for online monitoring. Here we are using ThingSpeak to store data. ThingSpeak is a very popular IoT cloud platform that is used to store, monitor, and process data online. 
 ThingSpeak is an IOT analytics platform service that allow you to aggregate, visualize, and analyse live data stream in the cloud. You can send data to ThingSpeak from your devices, create instant visualization of live data, and send alert.
 
-
-![Capture!](Capture.PNG)
-
-![Ce!](Ce.PNG)
-
-![2e!](2e.PNG)
 
 ## Block diagram & Circuit diagram
 
