@@ -38,21 +38,23 @@ Software requirement
 After the successful interface of the hardware parts according to the circuit diagram above. Now it’s time to set up the IoT platform, where data can be stored for online monitoring. Here we are using ThingSpeak to store data. ThingSpeak is a very popular IoT cloud platform that is used to store, monitor, and process data online. 
 ThingSpeak is an IOT analytics platform service that allow you to aggregate, visualize, and analyse live data stream in the cloud. You can send data to ThingSpeak from your devices, create instant visualization of live data, and send alert.
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![Capture!](Capture.PNG)
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![Ce!](Ce.PNG)
+
+![2e!](2e.PNG)
 
 ## Block diagram & Circuit diagram
 
+![Block!](Block.png)
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
 
 The block diagram above shows the working of this IoT based flood monitoring system using the Node MCU and IoT Platform. Here, the Ultrasonic sensor is used to detect river water levels. The raw data from the ultrasonic sensor is fed to the Node MCU, where it is processed and sent to ThingSpeak for graphical monitoring and critical alerts. Here, the red LED and Buzzer is used to send an alert in a flooded condition. While Green LED is used for indicating Normal condition. are used to be alert in severe flood conditions, and green LEDs are used to indicate normal conditions.The block diagram above shows the working of this IoT based flood monitoring system using the Node MCU and IoT Platform. Here, the Ultrasonic sensor is used to detect river water levels. The raw data from the ultrasonic sensor is fed to the Node MCU, where it is processed and sent to ThingSpeak for graphical monitoring and critical alerts. Here, the red LED and Buzzer is used to send an alert in a flooded condition. While Green LED is used for indicating Normal condition. are used to be alert in severe flood conditions, and green LEDs are used to indicate normal conditions.
 
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![circuit!](circuit.PNG)
+
 ## Code for this project
 
 ```javascript
